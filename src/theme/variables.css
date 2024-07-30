@@ -1,2 +1,21 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+
+.table ion-row {
+  padding: 10px 5px;
+  font-size: 16px;
+}
+
+.table ion-row:first-child {
+  color: blue;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+.table ion-row:nth-child(even) {
+  background-color: #807676;
+}
+
+.table ion-row:nth-child(odd) {
+  background-color: #9eceee;
+}
